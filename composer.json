@@ -1,0 +1,30 @@
+{
+	"name" : "nemke/d3js-bundle",
+	"type" : "symfony-bundle",
+	"description" : "Simple D3 JS bundle for Symfony",
+	"keywords" : [
+		"responsive",
+		"d3",
+		"d3.js",
+        "graphs",
+        "charts",
+		"symfony"
+	],
+	"homepage" : "http://d3js.org/",
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "Nemanja Andrejevic",
+			"email" : "andrejevicnemanja@gmail.com",
+			"homepage" : "https://www.nmdesign.rs/"
+		}
+	],
+	"require" : {
+		"symfony/framework-bundle" : ">=2.1"
+	},
+	"autoload" : {
+		"psr-0" : {
+			"Nemke\\D3JSBundle" : ""
+		}
+	},
+	"target-dir" : "Nemke/D3JSBundle"
+}
